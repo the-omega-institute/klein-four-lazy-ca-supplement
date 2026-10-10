@@ -101,10 +101,18 @@ blocks are proved using ordinary kernel-checkable `decide`.
 `lazy_membership_card` instantiates the reflection theorem with these checked
 proofs and has no certificate hypotheses.
 
-Candidate data is reproducible with
-`python3 experiments/generate_lazy_certificate.py --check`. This command checks
-that the untrusted enumeration regenerates the committed data byte for byte;
-the Lean proofs establish its mathematical validity.
+Candidate data is reproducible from the repository root with the restored
+[certificate generator](experiments/generate_lazy_certificate.py):
+
+```sh
+python3 experiments/generate_lazy_certificate.py --check
+```
+
+This command checks that the untrusted enumeration regenerates the committed
+`KleinFour/LazyData.lean` byte for byte. In `--check` mode it does not write that
+file or run Lean; the Lean proofs establish its mathematical validity.
+The separate BFS programs, independent checker, and instructions for reproducing
+Section 6 and Table 1 are in [experiments/README.md](experiments/README.md).
 
 The shortest-word distributions and maximal lengths, the size of the semigroup
 of nonempty lazy compositions, the weaker invariant's counts, the relative-rank

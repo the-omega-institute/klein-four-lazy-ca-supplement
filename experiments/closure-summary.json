@@ -1,0 +1,15 @@
+{
+  "cell_order": ["e","a","b","ab"],
+  "rule_encoding": "bit x of rule is the output at e on configuration x; cell e is bit0",
+  "CA_count": 65536,
+  "unit_count": 512,
+  "lazy_generator_count": 54,
+  "lazy_closure_count": 4007,
+  "units_lazy_closure_count": 59712,
+  "invariant_satisfying_count": 61440,
+  "invariant_satisfying_outside_units_lazy": 1728,
+  "invariant_violating_inside_units_lazy": 0,
+  "identity_in_nonempty_lazy_closure": false,
+  "counterexample_rule": 43964,
+  "formalization": "No new Lean run; finite enumeration and replay certificates only"
+}

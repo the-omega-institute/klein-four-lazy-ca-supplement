@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "lazy": {
+      "monoid_count": 4007,
+      "max_shortest_length": 6,
+      "length_distribution": [
+        1,
+        54,
+        678,
+        1894,
+        1218,
+        156,
+        6
+      ],
+      "generator_count": 54,
+      "closure_and_distance_edges_checked": 216378,
+      "certificates": "Every predecessor, generator word, generator-closure edge, and shortest distance verified independently."
+    },
+    "units-lazy": {
+      "monoid_count": 59712,
+      "max_shortest_length": 6,
+      "length_distribution": [
+        1,
+        565,
+        8806,
+        27424,
+        19004,
+        3870,
+        42
+      ],
+      "generator_count": 566,
+      "closure_and_distance_edges_checked": 33796992,
+      "certificates": "Every predecessor, generator word, generator-closure edge, and shortest distance verified independently."
+    }
+  },
+  "identity_rule": 43690,
+  "unit_count": 512,
+  "lazy_generator_count": 54,
+  "lazy_nonempty_semigroup_count": 4006,
+  "lazy_monoid_count": 4007,
+  "units_lazy_count": 59712,
+  "no_swaps_in_units_lazy": 19360,
+  "all_lazy_members_satisfy_no_swaps": true,
+  "paper_v5_table_1_matches": true,
+  "scope": "Exact finite computation with independently checked membership and shortest-word certificates. Lean formalization is separate.",
+  "Lean_run": false,
+  "failures": 0
+}
