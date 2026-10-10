@@ -1,0 +1,31 @@
+{
+  "title": "Supplementary material for \"Generation by lazy and invertible cellular automata over the Klein four-group\"",
+  "upload_type": "software",
+  "description": "Lean 4 formalization of the membership criterion (Theorem 1.1) and the cardinalities 59,712 and 4,007, together with the BFS programs, the independent shortest-word checker, and the membership and shortest-word tables reproducing Table 1 of the paper.",
+  "creators": [
+    {
+      "name": "Alcalá-Arroyo, Edgar",
+      "affiliation": "Universidad de Guadalajara"
+    },
+    {
+      "name": "Castillo-Ramirez, Alonso",
+      "affiliation": "Universidad de Guadalajara"
+    },
+    {
+      "name": "Ma, Haobo",
+      "affiliation": "ChronoAI Pte Ltd; The Omega Institute"
+    },
+    {
+      "name": "Zhang, Wenlin",
+      "affiliation": "National University of Singapore; The Omega Institute"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "cellular automata",
+    "Klein four-group",
+    "monoid generation",
+    "Lean 4"
+  ]
+}

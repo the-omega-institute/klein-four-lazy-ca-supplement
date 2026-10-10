@@ -1,12 +1,12 @@
 This standalone Lean 4 project formalizes the binary Klein-four membership
-criterion in Theorem 1.1 of `klein_four_generation_v4.tex`. Its primary statements
+criterion in Theorem 1.1 of the paper *Generation by lazy and invertible cellular
+automata over the Klein four-group*. Its primary statements
 are `KleinFour.membership_iff`, `KleinFour.membership_iff_orbits`,
 `KleinFour.membership_card`, and `KleinFour.lazy_membership_card`. The generated
 monoid has 59,712 elements; the lazy-only monoid has 4,007 elements.
 
 The project pins Lean to `leanprover/lean4:v4.33.0` and Mathlib to `v4.33.0`
-(commit `db584cd6d46c92f209a44c0f1c829460d327499d`), matching the versions requested
-in `TASK.md`. `lake-manifest.json` pins all transitive dependencies.
+(commit `db584cd6d46c92f209a44c0f1c829460d327499d`). `lake-manifest.json` pins all transitive dependencies.
 
 Build and inspect the proof dependencies with:
 
